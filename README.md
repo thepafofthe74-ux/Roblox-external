@@ -27,7 +27,7 @@ Single-file project: everything lives in `main.cpp`.
     /link psapi.lib gdi32.lib user32.lib kernel32.lib ^
     /SUBSYSTEM:WINDOWS
 
-Output binary: `runtime.exe`.
+Output binary: `external.exe`.
 
 ## Usage
 
@@ -63,7 +63,7 @@ All settings are stored in memory and edited through the INSERT menu. Values per
 
 ## Offsets
 
-All offsets are defined in `runtime.cpp` inside the `Offsets` namespace, tied to `version-e7d81637d42c4b23`. After any Roblox client update, recalculate:
+All offsets are defined in `main.cpp` inside the `Offsets` namespace, tied to `version-e7d81637d42c4b23`. After any Roblox client update, recalculate:
 
 - `DataModel`
 - `Workspace`
@@ -85,5 +85,6 @@ Target version: `version-e7d81637d42c4b23`. After a Roblox client update, recalc
 ## Disclaimer
 
 Provided as-is, no guarantee of functionality after a client update.
-
+ONLY FOR EDUCATION NO GARANTY OF NO DETECTION 
+Always use an alt 
 167% vibe coded
