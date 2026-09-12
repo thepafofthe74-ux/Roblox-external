@@ -23,7 +23,9 @@ Single-file project: everything lives in `main.cpp`.
 
     git clone https://github.com/thepafofthe74-ux/Roblox-external.git
     cd Roblox-external
-    cl /std:c++17 /O2 /EHsc runtime.cpp /link user32.lib gdi32.lib psapi.lib
+    cl /EHsc /std:c++17 /O2 /Fe"external.exe" main.cpp ^
+    /link psapi.lib gdi32.lib user32.lib kernel32.lib ^
+    /SUBSYSTEM:WINDOWS
 
 Output binary: `runtime.exe`.
 
