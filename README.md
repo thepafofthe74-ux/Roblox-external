@@ -2,7 +2,7 @@
 
 External cheat for the **normal Roblox client** (`RobloxPlayerBeta.exe`). Updated for version `version-e7d81637d42c4b23`.
 
-Single-file project: everything lives in `runtime.cpp`.
+Single-file project: everything lives in `main.cpp`.
 
 ## Features
 
@@ -21,7 +21,7 @@ Single-file project: everything lives in `runtime.cpp`.
 
 ## Build
 
-    git clone https://github.com/user/Roblox-external.git
+    git clone https://github.com/thepafofthe74-ux/Roblox-external.git
     cd Roblox-external
     cl /std:c++17 /O2 /EHsc runtime.cpp /link user32.lib gdi32.lib psapi.lib
 
