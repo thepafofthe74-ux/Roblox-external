@@ -32,7 +32,7 @@ Output binary: `external.exe`.
 ## Usage
 
 1. Launch the Roblox client and join an experience.
-2. Run `runtime.exe` as administrator.
+2. Run `external.exe` as administrator.
 3. Wait for attachment to the `RobloxPlayerBeta.exe` process.
 4. Press **INSERT** to open the overlay menu.
 5. Toggle and configure ESP, Fly, No Clip, Freecam inside the menu.
